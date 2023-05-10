@@ -35,6 +35,7 @@ var preguntasRestantes = preguntas.slice();
 
 // Función para mostrar una tarjeta aleatoria
 function mostrarTarjetaAleatoria() {
+  
   if (preguntasRestantes.length === 0) {
     preguntasRestantes = preguntas.slice();
   }
@@ -67,6 +68,7 @@ function mostrarTarjetaAleatoria() {
   contenedorTarjetas.appendChild(tarjeta);
 
   tarjetaActual = tarjeta;
+
 }
 
 // Func para manejar la respuesta seleccionada
@@ -79,20 +81,34 @@ function manejarRespuesta(evento) {
   var respuestaSeleccionada = evento.target.dataset.correcta === "true";
   if (respuestaSeleccionada) {
     tarjetaActual.classList.add("bg-success");
-    document.getElementById("result").textContent = "¡Respuesta correcta!";
+    document.getElementById("result").textContent = "👍🏻";
+
+    // Agregar la clase .bg-secondary a los botones de respuesta incorrecta
+    botonesRespuesta.forEach(function(boton) {
+      if (boton.dataset.correcta !== "true") {
+        boton.classList.add("bg-secondary");
+      }
+    });
   } else {
     tarjetaActual.classList.add("bg-danger");
-    document.getElementById("result").textContent = "Respuesta incorrecta :(";
+    document.getElementById("result").textContent = "Respuesta incorrecta 😬";
+
+    // Agregar la clase .bg-secondary a todos los botones de respuesta incorrecta
+    botonesRespuesta.forEach(function(boton) {
+      if (boton.dataset.correcta !== "true") {
+        boton.classList.add("bg-secondary");
+      }
+    });
   }
 
   setTimeout(function() {
     document.getElementById("result").textContent = "";
-  }, 1000);
+  }, 1600);
 
   // Temporizador de 2 segundos para mostrar la siguiente pregunta
   setTimeout(function() {
     mostrarTarjetaAleatoria();
-  }, 1000);
+  }, 1600);
 }
 
 // Llamada a la función para mostrar la primera tarjeta al cargar la página
