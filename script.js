@@ -85,6 +85,10 @@ function manejarRespuesta(evento) {
     document.getElementById("result").textContent = "Respuesta incorrecta :(";
   }
 
+  setTimeout(function() {
+    document.getElementById("result").textContent = "";
+  }, 1000);
+
   // Temporizador de 2 segundos para mostrar la siguiente pregunta
   setTimeout(function() {
     mostrarTarjetaAleatoria();
