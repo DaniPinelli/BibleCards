@@ -1,32 +1,51 @@
 // Array de preguntas y respuestas
 var preguntas = [
   {
-    pregunta: "¿Cuál de los siguientes profetas fue arrojado a un foso lleno de leones?",
-    respuestas: [
-      { texto: "Daniel", correcta: true },
-      { texto: "Moisés", correcta: false },
-      { texto: "Isaías", correcta: false },
-      { texto: "Jeremías", correcta: false },
-    ],
+    pregunta: "¿Qué significa la parábola del sembrador? Mateo 13:3-9" , respuestas: [ { texto: "Que la semilla nunca crecerá si no se riega", correcta: false }, { texto: "Que la semilla representa la Palabra de Dios y la tierra representa el corazón de las personas", correcta: true }, { texto: "Que la semilla es muy importante en vida de los agricultores", correcta: false }, { texto: "Que la semilla cae en buen terreno", correcta: false }, ],
   },
   {
-    pregunta: "¿Quién fue el primer rey de Israel?",
+    pregunta: "¿Quién fue el primer rey de Israel? Samuel 10:20-24 ",
     respuestas: [
       { texto: "David", correcta: false },
       { texto: "Saúl", correcta: true },
       { texto: "Salomón", correcta: false },
-      { texto: "Josué", correcta: false },
+      { texto: "Samuel", correcta: false },
     ],
   },
   {
-    pregunta: "¿En qué libro de la Biblia se encuentra la historia de José y sus hermanos?",
-    respuestas: [
-      { texto: "Éxodo", correcta: false },
-      { texto: "Números", correcta: false },
-      { texto: "Génesis", correcta: true },
-      { texto: "Levítico", correcta: false },
-    ],
+    pregunta: "¿Cuál es la primera creación de Dios? Génesis 1:1-5 ", respuestas: [
+       { texto: "El cielo", correcta: false },
+      { texto: "La tierra", correcta: false },
+      { texto: "La luz", correcta: true },
+      { texto: "Los animales acuáticos", correcta: false },
+     ],
   },
+  {
+    pregunta: "¿Qué dice Proverbios 6:6-8 sobre la naturaleza?" , respuestas: [ { texto: "Que los animales son más sabios que los seres humanos", correcta: false }, { texto: "Que los insectos son perezosos", correcta: false }, { texto: "Que los hormigas son un ejemplo de sabiduría y laboriosidad", correcta: true }, { texto: "Que las plantas son más importantes que los animales", correcta: false }, ],
+  },
+  {
+    pregunta: "¿Qué dice Salmo 19:1-2 sobre la creación?" , respuestas: [ { texto: "Que la creación es un error de Dios", correcta: false }, { texto: "Que la creación es más importante que el Creador", correcta: false }, { texto: "Que la creación muestra la gloria de Dios", correcta: true }, { texto: "Que la creación es un reflejo del pecado en el mundo", correcta: false }, ],
+  },
+  {
+    pregunta: "¿Cómo describe Proverbios 8:22-31 la creación?" , respuestas: [ { texto: "Como algo feo y sin valor", correcta: false }, { texto: "Como algo creado por los seres humanos", correcta: false }, { texto: "Como algo creado por la sabiduría de Dios", correcta: true }, { texto: "Como algo malo que debe ser destruido", correcta: false }, ],
+  },
+  {
+    pregunta: "¿Qué dice Romanos 8:18-23 sobre la creación?" , respuestas: [ { texto: "Que la creación es perfecta y no necesita ser cambiada", correcta: false }, { texto: "Que la creación es temporal y no importa", correcta: false }, { texto: "Que la creación está sufriendo y espera ser liberada de la corrupción", correcta: true }, { texto: "Que la creación es una ilusión y no existe", correcta: false }, ],
+  },
+  { 
+
+    pregunta: "¿Solo quién sabe la hora y día en la que Jesús vendrá?" , respuestas:  
+
+[ { texto: "Los científicos", correcta: false },  
+
+{ texto: "Los arqueólogos", correcta: false }, 
+
+ { texto: "Los discípulos", correcta: false }, 
+
+ { texto: "Dios", correcta: true}, ], 
+
+  } 
+
 ];
 
 // Variables globales
@@ -89,7 +108,7 @@ function mostrarTarjetaFin() {
   tarjetaBody.classList.add("card-body");
   var tarjetaTitulo = document.createElement("h5");
   tarjetaTitulo.classList.add("card-title");
-  tarjetaTitulo.textContent = "FIN";
+  tarjetaTitulo.textContent = "Game Over";
   tarjetaBody.appendChild(tarjetaTitulo);
   var botonReiniciar = document.createElement("button");
   botonReiniciar.classList.add("btn", "btn-success");
@@ -120,7 +139,7 @@ function manejarRespuesta(evento) {
     document.getElementById("result").textContent = "👍🏻";
   } else {
     tarjetaActual.classList.add("bg-danger");
-    document.getElementById("result").textContent = "Respuesta incorrecta 😬";
+    document.getElementById("result").textContent = "😬";
   }
 
   setTimeout(function() {
