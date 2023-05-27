@@ -1,8 +1,6 @@
 // Array de preguntas y respuestas
 var preguntas = [
-  {
-    pregunta: "¿Qué significa la parábola del sembrador? Mateo 13:3-9" , respuestas: [ { texto: "Que la semilla nunca crecerá si no se riega", correcta: false }, { texto: "Que la semilla representa la Palabra de Dios y la tierra representa el corazón de las personas", correcta: true }, { texto: "Que la semilla es muy importante en vida de los agricultores", correcta: false }, { texto: "Que la semilla cae en buen terreno", correcta: false }, ],
-  },
+  
   {
     pregunta: "¿Quién fue el primer rey de Israel? Samuel 10:20-24 ",
     respuestas: [
@@ -13,25 +11,14 @@ var preguntas = [
     ],
   },
   {
-    pregunta: "¿Cuál es la primera creación de Dios? Génesis 1:1-5 ", respuestas: [
+    pregunta: "¿Cuál es la primera creación de Dios? Génesis 1:1-5", respuestas: [
        { texto: "El cielo", correcta: false },
       { texto: "La tierra", correcta: false },
       { texto: "La luz", correcta: true },
       { texto: "Los animales acuáticos", correcta: false },
      ],
   },
-  {
-    pregunta: "¿Qué dice Proverbios 6:6-8 sobre la naturaleza?" , respuestas: [ { texto: "Que los animales son más sabios que los seres humanos", correcta: false }, { texto: "Que los insectos son perezosos", correcta: false }, { texto: "Que los hormigas son un ejemplo de sabiduría y laboriosidad", correcta: true }, { texto: "Que las plantas son más importantes que los animales", correcta: false }, ],
-  },
-  {
-    pregunta: "¿Qué dice Salmo 19:1-2 sobre la creación?" , respuestas: [ { texto: "Que la creación es un error de Dios", correcta: false }, { texto: "Que la creación es más importante que el Creador", correcta: false }, { texto: "Que la creación muestra la gloria de Dios", correcta: true }, { texto: "Que la creación es un reflejo del pecado en el mundo", correcta: false }, ],
-  },
-  {
-    pregunta: "¿Cómo describe Proverbios 8:22-31 la creación?" , respuestas: [ { texto: "Como algo feo y sin valor", correcta: false }, { texto: "Como algo creado por los seres humanos", correcta: false }, { texto: "Como algo creado por la sabiduría de Dios", correcta: true }, { texto: "Como algo malo que debe ser destruido", correcta: false }, ],
-  },
-  {
-    pregunta: "¿Qué dice Romanos 8:18-23 sobre la creación?" , respuestas: [ { texto: "Que la creación es perfecta y no necesita ser cambiada", correcta: false }, { texto: "Que la creación es temporal y no importa", correcta: false }, { texto: "Que la creación está sufriendo y espera ser liberada de la corrupción", correcta: true }, { texto: "Que la creación es una ilusión y no existe", correcta: false }, ],
-  },
+  
   { 
 
     pregunta: "¿Solo quién sabe la hora y día en la que Jesús vendrá?" , respuestas:  
@@ -44,7 +31,23 @@ var preguntas = [
 
  { texto: "Dios", correcta: true}, ], 
 
-  } 
+  },
+
+  {
+    pregunta: "¿Qué animal es mencionado como el animal que salió del arca de Noé cuando las aguas comenzaron a ceder?" , respuestas: [ { texto: "Mariposa", correcta: false }, { texto: "Cuervo", correcta: false }, { texto: "Gaviota", correcta: false }, { texto: "Paloma", correcta: true } ]
+  }, 
+
+  {
+    pregunta: '¿Qué ser vivo aparece en el libro de Isaías como uno de los tres seres vivos que gritan "Santo, santo, santo es el Señor Dios Todopoderoso"?' , respuestas: [ { texto: "Querubín", correcta: false }, { texto: "Ángel", correcta: false }, { texto: "Arcangel", correcta: false }, { texto: "Serafín", correcta: true } ]
+  },
+  {
+    pregunta: "¿Qué animal aparece en el libro de Éxodo como un castigo de Dios a Egipto y que finalmente llevó a su liberación?" , respuestas: [ { texto: "Hipopótamo", correcta: false }, { texto: "Sapo", correcta: true }, { texto: "Cocodrilo", correcta: false }, { texto: "Mosca", correcta: false }  ]
+  },
+  {
+    pregunta: "¿Qué animal es mencionado en el libro de Job que se extiende su cola como un cedro y tiene huesos como barras de hierro?" , respuestas: [ { texto: "Cocodrilo", correcta: true }, { texto: "León", correcta: false }, { texto: "León", correcta: false }, { texto: "Hipopótamo", correcta: false } ]
+  }
+
+
 
 ];
 
