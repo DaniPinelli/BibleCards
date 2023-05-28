@@ -41,11 +41,9 @@ var preguntas = [
     pregunta: '¿Qué ser vivo aparece en el libro de Isaías como uno de los tres seres vivos que gritan "Santo, santo, santo es el Señor Dios Todopoderoso"?' , respuestas: [ { texto: "Querubín", correcta: false }, { texto: "Ángel", correcta: false }, { texto: "Arcangel", correcta: false }, { texto: "Serafín", correcta: true } ]
   },
   {
-    pregunta: "¿Qué animal aparece en el libro de Éxodo como un castigo de Dios a Egipto y que finalmente llevó a su liberación?" , respuestas: [ { texto: "Hipopótamo", correcta: false }, { texto: "Sapo", correcta: true }, { texto: "Cocodrilo", correcta: false }, { texto: "Mosca", correcta: false }  ]
-  },
-  {
-    pregunta: "¿Qué animal es mencionado en el libro de Job que se extiende su cola como un cedro y tiene huesos como barras de hierro?" , respuestas: [ { texto: "Cocodrilo", correcta: true }, { texto: "León", correcta: false }, { texto: "León", correcta: false }, { texto: "Hipopótamo", correcta: false } ]
+    pregunta: "¿Qué animal aparece en el libro de Éxodo como un castigo de Dios a Egipto y que finalmente llevó a su liberación?" , respuestas: [ { texto: "Mosquito", correcta: false }, { texto: "Sapo", correcta: true }, { texto: "Cocodrilo", correcta: false }, { texto: "Hormiga", correcta: false }  ]
   }
+  
 
 
 
