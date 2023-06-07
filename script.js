@@ -19,12 +19,12 @@ var preguntas = [
      ],
   },
 
-  {  pregunta: "¿En qué lugar se encuentran Rut y su suegra al inicio del libro de Rut? Rut 1:1",  respuestas:[ {texto: "Moab", correcta: true}, {texto: "Israel", correcta: false}, {texto: "Egipto", correcta: false}, {texto: "Jericó", correcta: false},],},
+  {  pregunta: "¿En qué lugar se encuentran Rut y su suegra al inicio del libro de Rut? Rut 1:1",  respuestas:[ {texto: "Israel", correcta: false}, {texto: "Egipto", correcta: false}, {texto: "Jericó", correcta: false}, {texto: "Moab", correcta: true},],},
  
 
   { pregunta: "¿Quiénes fueron los primeros en visitar a Jesús después de su nacimiento? Lucas 2:8-20", respuestas:[{texto:"Pastores",correcta:true},{texto:"Reyes Magos",correcta:false},{texto:"Sacerdotes",correcta:false},{texto:"Discípulos de Juan el Bautista",correcta:false},],},
 
-  { pregunta:"¿Cuál fue la primera tentación de Jesús en el desierto? Lucas 4:1-13", respuestas:[{texto:"Convertir piedras en pan",correcta:true},{texto:"Saltar del templo",correcta:false},{texto:"Adorar a Satanás",correcta:false},{texto:"Negar a Dios",correcta:false},],},
+  { pregunta:"¿Cuál fue la primera tentación de Jesús en el desierto? Lucas 4:1-13", respuestas:[{texto:"Saltar del templo",correcta:false},{texto:"Adorar a Satanás",correcta:false}, {texto:"Convertir piedras en pan",correcta:true},{texto:"Negar a Dios",correcta:false},],},
 
   {pregunta: "¿Qué se afirma en el Salmo 118:24 que el Señor ha hecho?", respuestas:[ {texto: "Creó el mundo", correcta: false}, {texto: "Sanó a los enfermos", correcta: false}, {texto: "Se ha levantado", correcta: true}, {texto: "Creó al hombre", correcta: false}, ],},
   
@@ -45,13 +45,13 @@ var preguntas = [
 
   { pregunta: "¿Qué es el consejo? Proverbios 12:15", respuestas: [ { texto: "Una opinión personal", correcta: false }, { texto: "La sabiduría en acción", correcta: true }, { texto: "Un consejo financiero", correcta: false }, { texto: "Un consejo médico", correcta: false }, ], },
   
-  { pregunta: "¿Qué es mejor que un hombre fuerte? Proverbios 16.32", respuestas:[{texto:"El que domina su espíritu.",correcta:true},{texto:"El que tiene mucho dinero.",correcta:false},{texto:"El que tiene muchos amigos.",correcta:false},{texto:"El que tiene mucho poder.",correcta:false},],},
+  { pregunta: "¿Qué es mejor que un hombre fuerte? Proverbios 16.32", respuestas:[{texto:"El que tiene mucho dinero.",correcta:false}, {texto:"El que domina su espíritu.",correcta:true},{texto:"El que tiene muchos amigos.",correcta:false},{texto:"El que tiene mucho poder.",correcta:false},],},
   
   { pregunta: "¿Qué es el fruto de la humildad? Proverbios 22:4", respuestas: [ { texto: "La riqueza, el honor y la vida", correcta: true }, { texto: "La pobreza, la vergüenza y la muerte", correcta: false }, { texto: "La fama, el poder y el éxito", correcta: false }, { texto: "La arrogancia, la envidia y la maldad", correcta: false }, ], },
 
   { pregunta: "¿Cómo murió Judas Iscariote? Mateo 27:3-10", respuestas: [ { texto: "Fue lapidado", correcta: false }, { texto: "Murió de viejo", correcta: false }, { texto: "Fue quemado vivo", correcta: false },  { texto: "Se ahorcó", correcta: true }, ], },
 
-  { pregunta: "¿Qué es un amigo verdadero? Proverbios 17:17", respuestas: [ { texto: "Un hermano en tiempos de angustia", correcta: true }, { texto: "Alguien que siempre está feliz", correcta: false }, { texto: "Alguien que nunca se enoja", correcta: false }, { texto: "Alguien que siempre tiene razón", correcta: false }, ], },
+  { pregunta: "¿Qué es un amigo verdadero? Proverbios 17:17", respuestas: [  { texto: "Alguien que siempre está feliz", correcta: false }, { texto: "Un hermano en tiempos de angustia", correcta: true }, { texto: "Alguien que nunca se enoja", correcta: false }, { texto: "Alguien que siempre tiene razón", correcta: false }, ], },
   
   { pregunta: "¿Qué es mejor que la ira? Proverbios 16:32", respuestas: [ { texto: "La venganza", correcta: false }, { texto: "El orgullo", correcta: false }, { texto: "La arrogancia", correcta: false }, { texto: "La paciencia", correcta: true } ], },
   { 
