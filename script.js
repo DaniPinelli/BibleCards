@@ -1,5 +1,204 @@
 // Array de preguntas y respuestas
 var preguntas = [
+
+  {
+    pregunta: "¿Quién fue el primer mártir cristiano mencionado en el libro de Hechos? (Hechos 6:8-7:60)",
+    respuestas: [
+      { texto: "Pedro", correcta: false },
+      { texto: "Esteban", correcta: true },
+      { texto: "Santiago", correcta: false },
+    ],
+  },
+  {
+    pregunta: "¿A qué ciudad fue perseguida la iglesia después de la muerte de Esteban? (Hechos 8:1-4)",
+    respuestas: [
+      { texto: "Roma", correcta: false },
+      { texto: "Antioquía", correcta: true },
+      { texto: "Jerusalén", correcta: false },
+    ],
+  },
+  {
+    pregunta: "¿Quién fue el apóstol que tuvo una visión en Jope con animales impuros? (Hechos 10:9-23)",
+    respuestas: [
+      { texto: "Pablo", correcta: false },
+      { texto: "Andrés", correcta: false },
+      { texto: "Pedro", correcta: true },
+    ],
+  },
+  {
+    pregunta: "¿Cuál fue el nombre del centurión romano que se convirtió al cristianismo? (Hechos 10:24-48)",
+    respuestas: [
+      { texto: "Cornelio", correcta: true },
+      { texto: "Félix", correcta: false },
+      { texto: "Herodes", correcta: false },
+    ],
+  },
+  {
+    pregunta: "¿Cómo fue muerto el apóstol Santiago? (Hechos 12:1-2)",
+    respuestas: [
+      { texto: "Decapitado", correcta: true },
+      { texto: "Crucificado", correcta: false },
+      { texto: "Apedreado", correcta: false },
+    ],
+  },
+  {
+    pregunta: "¿Quién liberó a Pedro de la prisión milagrosamente? (Hechos 12:3-17)",
+    respuestas: [
+      { texto: "Juan", correcta: false },
+      { texto: "Pablo", correcta: false },
+      { texto: "Ángel del Señor", correcta: true },
+    ],
+  },
+  {
+    pregunta: "¿Quién fue el apóstol enviado a predicar al eunuco etíope? (Hechos 8:26-40)",
+    respuestas: [
+      { texto: "Juan", correcta: false },
+      { texto: "Felipe", correcta: true },
+      { texto: "Bartolomé", correcta: false },
+    ],
+  },
+  {
+    pregunta: "¿Cuál fue la ciudad los discípulos fueron llamados 'cristianos' por primera vez? (Hechos 11:19-26)",
+    respuestas: [
+      { texto: "Jerusalén", correcta: false },
+      { texto: "Antioquía", correcta: true },
+      { texto: "Corinto", correcta: false },
+    ],
+  },
+
+  {
+    pregunta: "¿En qué ciudad recibieron los discípulos el Espíritu Santo? (Hechos 2:1-4)",
+    respuestas: [
+      { texto: "Jerusalén", correcta: true },
+      { texto: "Antioquía", correcta: false },
+      { texto: "Corinto", correcta: false },
+    ],
+  },
+  {
+    pregunta: "¿Quién fue el apóstol que predicó a la multitud el día de Pentecostés? (Hechos 2:14-41)",
+    respuestas: [
+      { texto: "Pedro", correcta: true },
+      { texto: "Pablo", correcta: false },
+      { texto: "Juan", correcta: false },
+    ],
+  },
+  {
+    pregunta: "¿Cuántas personas se convirtieron al escuchar el mensaje de Pedro? (Hechos 2:41)",
+    respuestas: [
+      { texto: "50 personas", correcta: false },
+      { texto: "100 personas", correcta: false },
+      { texto: "3000 personas", correcta: true },
+    ],
+  },
+ 
+  {
+    pregunta: "¿Qué hizo Pedro al encontrarse con el inválido en la puerta del templo? (Hechos 3:1-10)",
+    respuestas: [
+      { texto: "Lo sanó", correcta: true },
+      { texto: "Le predicó", correcta: false },
+      { texto: "Lo resucitó", correcta: false },
+    ],
+  },
+  {
+    pregunta: "¿Quiénes pusieron presos a Pedro y a Juan por predicar en el templo? (Hechos 4:1-4)",
+    respuestas: [
+      { texto: "Los fariseos", correcta: false },
+      { texto: "Los saduceos", correcta: true },
+      { texto: "Los escribas", correcta: false },
+    ],
+  },
+  {
+    pregunta: "¿En nombre de quién sanaban los apóstoles a los enfermos? (Hechos 4:7-10)",
+    respuestas: [
+      { texto: "De Dios", correcta: false },
+      { texto: "De Jesucristo de Nazaret", correcta: true },
+      { texto: "En su propio nombre", correcta: false },
+ ],
+  },
+  {
+    pregunta: "¿Cuál fue la consecuencia de la muerte de Ananías y Safira por mentir al Espíritu Santo? (Hechos 5:1-11)",
+    respuestas: [
+      { texto: "Eran perdonados", correcta: false },
+      { texto: "Temor en la iglesia", correcta: true },
+      { texto: "Se convirtieron en mártires", correcta: false },
+    ],
+  },
+  {
+    pregunta: "¿Quién defendió a los apóstoles ante el sanedrín? (Hechos 5:29-32)",
+    respuestas: [
+      { texto: "Pedro", correcta: false },
+      { texto: "Santiago", correcta: false },
+      { texto: "Gamaliel", correcta: true },
+    ],
+  },
+  {
+    pregunta: "¿Quién fue el primer mártir cristiano mencionado en el libro de Hechos? (Hechos 6:8-7:60)",
+    respuestas: [
+      { texto: "Pedro", correcta: false },
+      { texto: "Esteban", correcta: true },
+      { texto: "Santiago", correcta: false },
+    ],
+  },
+
+  {
+    pregunta: "¿En qué monte enseñó Jesús sobre el fin de los tiempos? (Marcos 13:1-37)",
+    respuestas: [
+      { texto: "Monte Carmelo", correcta: false },
+      { texto: "Monte Hermón", correcta: false },
+      { texto: "Monte Tabor", correcta: false },
+      { texto: "Monte de los Olivos", correcta: true },
+    ],
+  },
+
+  {
+    pregunta: "¿Cuántos panes y peces utilizó Jesús para alimentar a una multitud de 5,000 personas? (Marcos 6:30-44)",
+    respuestas: [
+      { texto: "3 panes y 2 peces", correcta: false },
+      { texto: "5 panes y 2 peces", correcta: true },
+      { texto: "7 panes y 5 peces", correcta: false },
+      { texto: "12 panes y 7 peces", correcta: false },
+    ],
+  },
+
+  {
+    pregunta: "¿Cómo respondió Jesús cuando el sumo sacerdote le preguntó si era el Cristo, el Hijo de Dios? (Marcos 14:53-65)",
+    respuestas: [
+      { texto: "Sí, lo soy", correcta: false },
+      { texto: "No, no lo soy", correcta: false },
+      { texto: "Tú lo has dicho", correcta: true },
+      { texto: "No tengo respuesta", correcta: false },
+    ],
+  },
+
+
+
+  {
+    pregunta: "¿Cómo se llama el primer discípulo que Jesús llamó? (Marcos 1:16-20)",
+    respuestas: [
+      { texto: "Andrés", correcta: false },
+      { texto: "Pedro", correcta: true },
+      { texto: "Santiago", correcta: false },
+      { texto: "Juan", correcta: false },
+    ],
+  },
+  {
+    pregunta: "¿A quién Jesús sanó en la sinagoga en Capernaúm? (Marcos 1:21-28)",
+    respuestas: [
+      { texto: "El hijo del centurión", correcta: false },
+      { texto: "Un hombre con espíritu inmundo", correcta: true },
+      { texto: "La suegra de Pedro", correcta: false },
+      { texto: "Un leproso", correcta: false },
+    ],
+  },
+  {
+    pregunta: "¿Qué hizo Jesús después de sanar al leproso? (Marcos:40-45)",
+    respuestas: [
+      { texto: "Se retiró al desierto a orar", correcta: false },
+      { texto: "Predicó en las sinagogas", correcta: false },
+      { texto: "Sanó a un paralítico", correcta: true },
+      { texto: "Salió a pescar con sus discípulos", correcta: false },
+    ],
+  },
   
   {
     pregunta: "¿Quién fue el primer rey de Israel? Samuel 10:20-24 ",
@@ -19,6 +218,15 @@ var preguntas = [
      ],
   },
 
+  {  pregunta: "¿Qué discípulo negó a Jesús tres veces antes de que cantara el gallo? (Marcos 14:66-72)",
+  respuestas: [
+    { texto: "Pedro", correcta: true },
+    { texto: "Santiago", correcta: false },
+    { texto: "Juan", correcta: false },
+    { texto: "Andrés", correcta: false },
+  ],
+},
+
   {  pregunta: "¿En qué lugar se encuentran Rut y su suegra al inicio del libro de Rut? Rut 1:1",  respuestas:[ {texto: "Israel", correcta: false}, {texto: "Egipto", correcta: false}, {texto: "Jericó", correcta: false}, {texto: "Moab", correcta: true},],},
  
 
@@ -29,7 +237,7 @@ var preguntas = [
   {pregunta: "¿Qué se afirma en el Salmo 118:24 que el Señor ha hecho?", respuestas:[ {texto: "Creó el mundo", correcta: false}, {texto: "Sanó a los enfermos", correcta: false}, {texto: "Se ha levantado", correcta: true}, {texto: "Creó al hombre", correcta: false}, ],},
   
 
-   { pregunta: "¿Qué es vanidad? Eclesiastés 1:2", respuestas: [ { texto: "La riqueza", correcta: false }, { texto: "La fama", correcta: false }, { texto: "Todo es vanidad", correcta: true }, { texto: "La sabiduría", correcta: false }, ], },
+   { pregunta: "¿Qué es vanidad? Eclesiastés 1:2", respuestas: [ { texto: "La riqueza", correcta: false }, { texto: "La fama", correcta: false }, { texto: "Todo", correcta: true }, { texto: "La sabiduría", correcta: false }, ], },
 
    { pregunta: "¿Qué hay para el hombre en todo su trabajo? Eclesiastés 3:9-13", respuestas: [ { texto: "Dolor", correcta: false }, { texto: "Gozo", correcta: true }, { texto: "Vergüenza", correcta: false }, { texto: "Frustración", correcta: false }, ], },
   
@@ -47,13 +255,11 @@ var preguntas = [
   
   { pregunta: "¿Qué es mejor que un hombre fuerte? Proverbios 16.32", respuestas:[{texto:"El que tiene mucho dinero.",correcta:false}, {texto:"El que domina su espíritu.",correcta:true},{texto:"El que tiene muchos amigos.",correcta:false},{texto:"El que tiene mucho poder.",correcta:false},],},
   
-  { pregunta: "¿Qué es el fruto de la humildad? Proverbios 22:4", respuestas: [ { texto: "La riqueza, el honor y la vida", correcta: true }, { texto: "La pobreza, la vergüenza y la muerte", correcta: false }, { texto: "La fama, el poder y el éxito", correcta: false }, { texto: "La arrogancia, la envidia y la maldad", correcta: false }, ], },
+  { pregunta: "¿Qué es el fruto de la humildad? Proverbios 22:4", respuestas: [ { texto: "Riqueza, honor y vida", correcta: true }, { texto: "Pobreza, vergüenza y muerte", correcta: false }, { texto: "Fama, poder y éxito", correcta: false }, { texto: "Arrogancia, envidia y maldad", correcta: false }, ], },
 
-  { pregunta: "¿Cómo murió Judas Iscariote? Mateo 27:3-10", respuestas: [ { texto: "Fue lapidado", correcta: false }, { texto: "Murió de viejo", correcta: false }, { texto: "Fue quemado vivo", correcta: false },  { texto: "Se ahorcó", correcta: true }, ], },
-
-  { pregunta: "¿Qué es un amigo verdadero? Proverbios 17:17", respuestas: [  { texto: "Alguien que siempre está feliz", correcta: false }, { texto: "Un hermano en tiempos de angustia", correcta: true }, { texto: "Alguien que nunca se enoja", correcta: false }, { texto: "Alguien que siempre tiene razón", correcta: false }, ], },
+  { pregunta: "¿Cómo murió Judas Iscariote? Mateo 27:3-10", respuestas: [ { texto: "Fue apedreado", correcta: false }, { texto: "Murió de viejo", correcta: false }, { texto: "Se quemó vivo", correcta: false },  { texto: "Se ahorcó", correcta: true }, ], },
   
-  { pregunta: "¿Qué es mejor que la ira? Proverbios 16:32", respuestas: [ { texto: "La venganza", correcta: false }, { texto: "El orgullo", correcta: false }, { texto: "La arrogancia", correcta: false }, { texto: "La paciencia", correcta: true } ], },
+  { pregunta: "¿Qué es mejor que la ira? Proverbios 16:32", respuestas: [ { texto: "La bondad", correcta: false }, { texto: "El amor", correcta: false }, { texto: "La arrogancia", correcta: false }, { texto: "La paciencia", correcta: true } ], },
   { 
 
     pregunta: "¿Solo quién sabe la hora y día en la que Jesús vendrá?" , respuestas:  
@@ -67,6 +273,16 @@ var preguntas = [
  { texto: "Dios", correcta: true}, ], 
 
   },
+
+  { pregunta: "¿Qué dice el autor que es la sabiduría? Eclesiastés 1:18", respuestas: [ { texto: "La clave para la felicidad", correcta: false }, { texto: "Un don de Dios", correcta: false }, { texto: "Una carga pesada", correcta: true }, { texto: "La fuente de la vida eterna", correcta: false }, ], },
+
+  { pregunta: "¿Qué es lo que siempre ha existido y siempre existirá? Eclesiastés 1:4", respuestas: [ { texto: "La tierra", correcta: false }, { texto: "El sol", correcta: false }, { texto: "El mar", correcta: false }, { texto: "Generación y regeneración de todas las cosas", correcta: true }, ], },
+
+  { pregunta: "¿Qué plan ideó Amán para matar a los judíos? Ester 3:8-9", respuestas: [ { texto: "Envenenarlos", correcta: false }, { texto: "Ahorcarlos", correcta: false }, { texto: "Quemarlos vivos", correcta: false }, { texto: "Echar suertes", correcta: true }, ], },
+
+  { pregunta: "¿Cuál fue la petición de Ester al rey para salvar a su pueblo? Ester 7:3-4", respuestas: [ { texto: "Perdón por los judíos", correcta: false }, { texto: "Que Amán fuera castigado", correcta: true }, { texto: "Que los judíos fueran liberados", correcta: false }, { texto: "Regresar a Jerusalén", correcta: false }, ], },
+
+  { pregunta: "¿Quién era el rey de Persia en el tiempo de Ester? Ester 1:1", respuestas: [ { texto: "Artajerjes", correcta: false }, { texto: "Ciro", correcta: false }, { texto: "Darío", correcta: false },{ texto: "Asuero", correcta: true } ], },
 
   {
     pregunta: "¿Qué animal es mencionado como el animal que salió del arca de Noé cuando las aguas comenzaron a ceder?" , respuestas: [ { texto: "Mariposa", correcta: false }, { texto: "Cuervo", correcta: false }, { texto: "Gaviota", correcta: false }, { texto: "Paloma", correcta: true } ]
