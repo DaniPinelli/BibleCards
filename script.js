@@ -6,6 +6,7 @@ var preguntas = [
     respuestas: [
       { texto: "Pedro", correcta: false },
       { texto: "Esteban", correcta: true },
+      { texto: "Pablo", correcta: false },
       { texto: "Santiago", correcta: false },
     ],
   },
@@ -15,6 +16,7 @@ var preguntas = [
       { texto: "Roma", correcta: false },
       { texto: "Antioquía", correcta: true },
       { texto: "Jerusalén", correcta: false },
+      { texto: "Éfeso", correcta: false },
     ],
   },
   {
@@ -31,11 +33,13 @@ var preguntas = [
       { texto: "Cornelio", correcta: true },
       { texto: "Félix", correcta: false },
       { texto: "Herodes", correcta: false },
+      { texto: "Agripa", correcta: false },
     ],
   },
   {
     pregunta: "¿Cómo fue muerto el apóstol Santiago? (Hechos 12:1-2)",
     respuestas: [
+      { texto: "Ahogado", correcta: false },
       { texto: "Decapitado", correcta: true },
       { texto: "Crucificado", correcta: false },
       { texto: "Apedreado", correcta: false },
@@ -46,29 +50,33 @@ var preguntas = [
     respuestas: [
       { texto: "Juan", correcta: false },
       { texto: "Pablo", correcta: false },
-      { texto: "Ángel del Señor", correcta: true },
+      { texto: "Un soldado", correcta: false },
+      { texto: "Un ángel", correcta: true },
     ],
   },
   {
-    pregunta: "¿Quién fue el apóstol enviado a predicar al eunuco etíope? (Hechos 8:26-40)",
+    pregunta: "¿Qué apóstol fue enviado a predicar al eunuco etíope? (Hechos 8:26-40)",
     respuestas: [
       { texto: "Juan", correcta: false },
+      { texto: "Pablo", correcta: false },
       { texto: "Felipe", correcta: true },
       { texto: "Bartolomé", correcta: false },
     ],
   },
   {
-    pregunta: "¿Cuál fue la ciudad los discípulos fueron llamados 'cristianos' por primera vez? (Hechos 11:19-26)",
+    pregunta: "¿En qué ciudad los discípulos fueron llamados 'cristianos' por primera vez? (Hechos 11:19-26)",
     respuestas: [
       { texto: "Jerusalén", correcta: false },
       { texto: "Antioquía", correcta: true },
       { texto: "Corinto", correcta: false },
+      { texto: "Galacia", correcta: false },
     ],
   },
 
   {
     pregunta: "¿En qué ciudad recibieron los discípulos el Espíritu Santo? (Hechos 2:1-4)",
     respuestas: [
+      { texto: "Belén", correcta: false },
       { texto: "Jerusalén", correcta: true },
       { texto: "Antioquía", correcta: false },
       { texto: "Corinto", correcta: false },
@@ -85,8 +93,9 @@ var preguntas = [
   {
     pregunta: "¿Cuántas personas se convirtieron al escuchar el mensaje de Pedro? (Hechos 2:41)",
     respuestas: [
+      { texto: "30 personas", correcta: false },
       { texto: "50 personas", correcta: false },
-      { texto: "100 personas", correcta: false },
+      { texto: "300 personas", correcta: false },
       { texto: "3000 personas", correcta: true },
     ],
   },
@@ -105,6 +114,7 @@ var preguntas = [
       { texto: "Los fariseos", correcta: false },
       { texto: "Los saduceos", correcta: true },
       { texto: "Los escribas", correcta: false },
+      { texto: "Los judíos", correcta: false },
     ],
   },
   {
@@ -113,11 +123,13 @@ var preguntas = [
       { texto: "De Dios", correcta: false },
       { texto: "De Jesucristo de Nazaret", correcta: true },
       { texto: "En su propio nombre", correcta: false },
+      { texto: "De Pablo", correcta: false },
  ],
   },
   {
     pregunta: "¿Cuál fue la consecuencia de la muerte de Ananías y Safira por mentir al Espíritu Santo? (Hechos 5:1-11)",
     respuestas: [
+      { texto: "Arrepentimiento", correcta: false },
       { texto: "Eran perdonados", correcta: false },
       { texto: "Temor en la iglesia", correcta: true },
       { texto: "Se convirtieron en mártires", correcta: false },
@@ -129,10 +141,11 @@ var preguntas = [
       { texto: "Pedro", correcta: false },
       { texto: "Santiago", correcta: false },
       { texto: "Gamaliel", correcta: true },
+      { texto: "Saulo", correcta: false },
     ],
   },
   {
-    pregunta: "¿Quién fue el primer mártir cristiano mencionado en el libro de Hechos? (Hechos 6:8-7:60)",
+    pregunta: "¿Quién fue el primer mártir cristiano? (Hechos 6:8-7:60)",
     respuestas: [
       { texto: "Pedro", correcta: false },
       { texto: "Esteban", correcta: true },
@@ -166,14 +179,14 @@ var preguntas = [
       { texto: "Sí, lo soy", correcta: false },
       { texto: "No, no lo soy", correcta: false },
       { texto: "Tú lo has dicho", correcta: true },
-      { texto: "No tengo respuesta", correcta: false },
+      { texto: "Hizo silencio", correcta: false },
     ],
   },
 
 
 
   {
-    pregunta: "¿Cómo se llama el primer discípulo que Jesús llamó? (Marcos 1:16-20)",
+    pregunta: "¿A qué discípulo llamó Jesús primero? (Marcos 1:16-20)",
     respuestas: [
       { texto: "Andrés", correcta: false },
       { texto: "Pedro", correcta: true },
@@ -182,11 +195,11 @@ var preguntas = [
     ],
   },
   {
-    pregunta: "¿A quién Jesús sanó en la sinagoga en Capernaúm? (Marcos 1:21-28)",
+    pregunta: "¿A quién sanó Jesús en la sinagoga en Capernaúm? (Marcos 1:21-28)",
     respuestas: [
-      { texto: "El hijo del centurión", correcta: false },
-      { texto: "Un hombre con espíritu inmundo", correcta: true },
-      { texto: "La suegra de Pedro", correcta: false },
+      { texto: "Al hijo del centurión", correcta: false },
+      { texto: "Hombre con espíritu inmundo", correcta: true },
+      { texto: "Suegra de Pedro", correcta: false },
       { texto: "Un leproso", correcta: false },
     ],
   },
@@ -243,7 +256,7 @@ var preguntas = [
   
    { pregunta: "¿Qué es mejor que la luz? Eclesiastés 7:5", respuestas:[ {texto:"La riqueza",correcta:false}, {texto:"El poder",correcta:false}, {texto:"La fama",correcta:false}, {texto:"La sabiduría",correcta:true}, ],},
   
-   { pregunta: "¿Qué es mejor que la vida? Eclesiastés 7:1-2", respuestas:[{texto:"El día de la muerte",correcta:true},{texto:"La riqueza",correcta:false},{texto:"El éxito",correcta:false},{texto:"La fama",correcta:false}, ],},
+   { pregunta: "¿Qué es mejor que la vida? Eclesiastés 7:1-2", respuestas:[{texto:"La muerte",correcta:true},{texto:"La riqueza",correcta:false},{texto:"El éxito",correcta:false},{texto:"La fama",correcta:false}, ],},
   
    { pregunta: "¿Qué es mejor que la risa? Eclesiastés 7:3-4", respuestas:[ {texto:"La indiferencia",correcta:false}, {texto:"El llanto",correcta:true}, {texto:"La arrogancia",correcta:false},{texto:"La tristeza",correcta:false}, ],},
 
