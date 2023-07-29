@@ -241,11 +241,11 @@ var preguntas = [
 
    { pregunta: "¿Qué hay para el hombre en todo su trabajo? Eclesiastés 3:9-13", respuestas: [ { texto: "Dolor", correcta: false }, { texto: "Gozo", correcta: true }, { texto: "Vergüenza", correcta: false }, { texto: "Frustración", correcta: false }, ], },
   
-   { pregunta: "¿Qué es mejor que la luz? Eclesiastés 7:5", respuestas:[ {texto:"La riqueza.",correcta:false}, {texto:"El poder.",correcta:false}, {texto:"La fama.",correcta:false}, {texto:"La sabiduría.",correcta:true}, ],},
+   { pregunta: "¿Qué es mejor que la luz? Eclesiastés 7:5", respuestas:[ {texto:"La riqueza",correcta:false}, {texto:"El poder",correcta:false}, {texto:"La fama",correcta:false}, {texto:"La sabiduría",correcta:true}, ],},
   
-   { pregunta: "¿Qué es mejor que la vida? Eclesiastés 7:1-2", respuestas:[{texto:"El día de la muerte.",correcta:true},{texto:"La riqueza.",correcta:false},{texto:"El éxito.",correcta:false},{texto:"La fama.",correcta:false}, ],},
+   { pregunta: "¿Qué es mejor que la vida? Eclesiastés 7:1-2", respuestas:[{texto:"El día de la muerte",correcta:true},{texto:"La riqueza",correcta:false},{texto:"El éxito",correcta:false},{texto:"La fama",correcta:false}, ],},
   
-   { pregunta: "¿Qué es mejor que la risa? Eclesiastés 7:3-4", respuestas:[ {texto:"La indiferencia.",correcta:false}, {texto:"El llanto.",correcta:true}, {texto:"La arrogancia.",correcta:false},{texto:"La tristeza.",correcta:false}, ],},
+   { pregunta: "¿Qué es mejor que la risa? Eclesiastés 7:3-4", respuestas:[ {texto:"La indiferencia",correcta:false}, {texto:"El llanto",correcta:true}, {texto:"La arrogancia",correcta:false},{texto:"La tristeza",correcta:false}, ],},
 
   { pregunta: "¿Qué es una fuente de vida? Proverbios 4:23", respuestas: [ { texto: "El cerebro", correcta: false }, { texto: "Los pulmones", correcta: false }, { texto: "El corazón", correcta: true }, { texto: "Los riñones", correcta: false }, ], },
 
@@ -253,7 +253,7 @@ var preguntas = [
 
   { pregunta: "¿Qué es el consejo? Proverbios 12:15", respuestas: [ { texto: "Una opinión personal", correcta: false }, { texto: "La sabiduría en acción", correcta: true }, { texto: "Un consejo financiero", correcta: false }, { texto: "Un consejo médico", correcta: false }, ], },
   
-  { pregunta: "¿Qué es mejor que un hombre fuerte? Proverbios 16.32", respuestas:[{texto:"El que tiene mucho dinero.",correcta:false}, {texto:"El que domina su espíritu.",correcta:true},{texto:"El que tiene muchos amigos.",correcta:false},{texto:"El que tiene mucho poder.",correcta:false},],},
+  { pregunta: "¿Qué es mejor que un hombre fuerte? Proverbios 16.32", respuestas:[{texto:"El que tiene mucho dinero.",correcta:false}, {texto:"El que domina su espíritu",correcta:true},{texto:"El que tiene muchos amigos",correcta:false},{texto:"El que tiene mucho poder",correcta:false},],},
   
   { pregunta: "¿Qué es el fruto de la humildad? Proverbios 22:4", respuestas: [ { texto: "Riqueza, honor y vida", correcta: true }, { texto: "Pobreza, vergüenza y muerte", correcta: false }, { texto: "Fama, poder y éxito", correcta: false }, { texto: "Arrogancia, envidia y maldad", correcta: false }, ], },
 
@@ -276,11 +276,11 @@ var preguntas = [
 
   { pregunta: "¿Qué dice el autor que es la sabiduría? Eclesiastés 1:18", respuestas: [ { texto: "La clave para la felicidad", correcta: false }, { texto: "Un don de Dios", correcta: false }, { texto: "Una carga pesada", correcta: true }, { texto: "La fuente de la vida eterna", correcta: false }, ], },
 
-  { pregunta: "¿Qué es lo que siempre ha existido y siempre existirá? Eclesiastés 1:4", respuestas: [ { texto: "La tierra", correcta: false }, { texto: "El sol", correcta: false }, { texto: "El mar", correcta: false }, { texto: "Generación y regeneración de todas las cosas", correcta: true }, ], },
+  { pregunta: "¿Qué es lo que siempre ha existido y siempre existirá? Eclesiastés 1:4", respuestas: [ { texto: "La tierra", correcta: false }, { texto: "El sol", correcta: false }, { texto: "El mar", correcta: false }, { texto: "Regeneración de las cosas", correcta: true }, ], },
 
   { pregunta: "¿Qué plan ideó Amán para matar a los judíos? Ester 3:8-9", respuestas: [ { texto: "Envenenarlos", correcta: false }, { texto: "Ahorcarlos", correcta: false }, { texto: "Quemarlos vivos", correcta: false }, { texto: "Echar suertes", correcta: true }, ], },
 
-  { pregunta: "¿Cuál fue la petición de Ester al rey para salvar a su pueblo? Ester 7:3-4", respuestas: [ { texto: "Perdón por los judíos", correcta: false }, { texto: "Que Amán fuera castigado", correcta: true }, { texto: "Que los judíos fueran liberados", correcta: false }, { texto: "Regresar a Jerusalén", correcta: false }, ], },
+  { pregunta: "¿Cuál fue la petición de Ester al rey para salvar a su pueblo? Ester 7:3-4", respuestas: [ { texto: "Perdón por los judíos", correcta: false }, { texto: "Que Amán fuera castigado", correcta: true }, { texto: "Liberación a los judíos", correcta: false }, { texto: "Regresar a Jerusalén", correcta: false }, ], },
 
   { pregunta: "¿Quién era el rey de Persia en el tiempo de Ester? Ester 1:1", respuestas: [ { texto: "Artajerjes", correcta: false }, { texto: "Ciro", correcta: false }, { texto: "Darío", correcta: false },{ texto: "Asuero", correcta: true } ], },
 
