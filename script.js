@@ -283,8 +283,6 @@ var preguntas = [
 
   { pregunta: "¿Qué es lo que siempre ha existido y siempre existirá? Eclesiastés 1:4", respuestas: [ { texto: "La tierra", correcta: false }, { texto: "El sol", correcta: false }, { texto: "El mar", correcta: false }, { texto: "Regeneración de las cosas", correcta: true }, ], },
 
-  { pregunta: "¿Cuál fue la petición de Ester al rey para salvar a su pueblo? Ester 7:3-4", respuestas: [ { texto: "Perdón por los judíos", correcta: false }, { texto: "Que Amán fuera castigado", correcta: true }, { texto: "Liberación a los judíos", correcta: false }, { texto: "Regresar a Jerusalén", correcta: false }, ], },
-
   { pregunta: "¿Quién era el rey de Persia en el tiempo de Ester? Ester 1:1", respuestas: [ { texto: "Artajerjes", correcta: false }, { texto: "Ciro", correcta: false }, { texto: "Darío", correcta: false },{ texto: "Asuero", correcta: true } ], },
 
   {
@@ -298,8 +296,7 @@ var preguntas = [
   { pregunta: "¿Qué animal es descrito en Proverbios como sinónimo de pereza?" , respuestas: [ { texto: "Cigarra", correcta: true }, { texto: "Saltamontes", correcta: false }, { texto: "Ciempiés", correcta: false }, { texto: "Mariposa", correcta: false } ] },
   { pregunta: "¿Qué insecto es elogiado por su organización y provisión en Proverbios?" , respuestas: [ { texto: "Termita", correcta: false }, { texto: "Avispa", correcta: false }, { texto: "Hormiga", correcta: true }, { texto: "Mosca", correcta: false } ] },
   { pregunta: "¿Qué animal es mencionado en Proverbios como el rey de los animales?" , respuestas: [ { texto: "León", correcta: true }, { texto: "Elefante", correcta: false }, { texto: "Tigre", correcta: false }, { texto: "Cebra", correcta: false } ] },
-  { pregunta: "¿Qué insecto es elogiado en Proverbios por su sabiduría en la preparación para el futuro?" , respuestas: [ { texto: "Polilla", correcta: false }, { texto: "Mariposa", correcta: false }, { texto: "Avispa", correcta: true }, { texto: "Mariquita", correcta: false } ] },
-  { pregunta: "¿Qué animal es conocido por su fuerza y ​​valor según Proverbios?" , respuestas: [ { texto: "Aguila", correcta: true }, { texto: "Halcón", correcta: false }, { texto: "Pavo real", correcta: false }, { texto: "Condor", correcta: false } ] },
+  { pregunta: "¿Qué animal es conocido por su fuerza y ​​valor según Proverbios?" , respuestas: [ { texto: "Águila", correcta: true }, { texto: "Halcón", correcta: false }, { texto: "Pavo real", correcta: false }, { texto: "Condor", correcta: false } ] },
 
   {
     pregunta: "¿Qué animal aparece en el libro de Éxodo como un castigo de Dios a Egipto y que finalmente llevó a su liberación?" , respuestas: [ { texto: "Mosquito", correcta: false }, { texto: "Sapo", correcta: true }, { texto: "Cocodrilo", correcta: false }, { texto: "Hormiga", correcta: false }  ]
@@ -311,12 +308,8 @@ var preguntas = [
 { pregunta: "¿Qué animal es descrito en Proverbios como sinónimo de pereza?" , respuestas: [ { texto: "Cigarra", correcta: true }, { texto: "Saltamontes", correcta: false }, { texto: "Ciempiés", correcta: false }, { texto: "Mariposa", correcta: false } ] },
 
 
-{ pregunta: "¿Qué animal es mencionado en Proverbios como el rey de los animales?" , respuestas: [ { texto: "León", correcta: true }, { texto: "Elefante", correcta: false }, { texto: "Tigre", correcta: false }, { texto: "Cebra", correcta: false } ] },
-
 
 { pregunta: "¿Qué insecto es elogiado en Proverbios por su sabiduría en la preparación para el futuro?" , respuestas: [ { texto: "Polilla", correcta: false }, { texto: "Mariposa", correcta: false }, { texto: "Avispa", correcta: true }, { texto: "Mariquita", correcta: false } ] },
-
-{ pregunta: "¿Qué animal es conocido por su fuerza y ​​valor según Proverbios?" , respuestas: [ { texto: "Aguila", correcta: true }, { texto: "Halcón", correcta: false }, { texto: "Pavo real", correcta: false }, { texto: "Condor", correcta: false } ] },
  
 { pregunta: "¿En qué ciudad se encontraba la Casa de Cornelio, a quien Pedro visitó según Hechos 10?" , respuestas: [ { texto: "Jope", correcta: true }, { texto: "Capernaum", correcta: false }, { texto: "Corinto", correcta: false }, { texto: "Jerusalem", correcta: false } ] },
 { pregunta: "¿En qué ciudad se encontraba el Areópago donde Pablo predicó su famoso discurso registrado en Hechos 17?" , respuestas: [ { texto: "Atenas", correcta: true }, { texto: "Roma", correcta: false }, { texto: "Jerusalén", correcta: false }, { texto: "Corinto", correcta: false } ] },
