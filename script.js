@@ -127,15 +127,6 @@ var preguntas = [
  ],
   },
   {
-    pregunta: "¿Cuál fue la consecuencia de la muerte de Ananías y Safira por mentir al Espíritu Santo? (Hechos 5:1-11)",
-    respuestas: [
-      { texto: "Arrepentimiento", correcta: false },
-      { texto: "Eran perdonados", correcta: false },
-      { texto: "Temor en la iglesia", correcta: true },
-      { texto: "Se convirtieron en mártires", correcta: false },
-    ],
-  },
-  {
     pregunta: "¿Quién defendió a los apóstoles ante el sanedrín? (Hechos 5:29-32)",
     respuestas: [
       { texto: "Pedro", correcta: false },
@@ -148,6 +139,7 @@ var preguntas = [
     pregunta: "¿Quién fue el primer mártir cristiano? (Hechos 6:8-7:60)",
     respuestas: [
       { texto: "Pedro", correcta: false },
+      { texto: "Saulo", correcta: true },
       { texto: "Esteban", correcta: true },
       { texto: "Santiago", correcta: false },
     ],
@@ -291,54 +283,40 @@ var preguntas = [
 
   { pregunta: "¿Qué es lo que siempre ha existido y siempre existirá? Eclesiastés 1:4", respuestas: [ { texto: "La tierra", correcta: false }, { texto: "El sol", correcta: false }, { texto: "El mar", correcta: false }, { texto: "Regeneración de las cosas", correcta: true }, ], },
 
-  { pregunta: "¿Qué plan ideó Amán para matar a los judíos? Ester 3:8-9", respuestas: [ { texto: "Envenenarlos", correcta: false }, { texto: "Ahorcarlos", correcta: false }, { texto: "Quemarlos vivos", correcta: false }, { texto: "Echar suertes", correcta: true }, ], },
-
   { pregunta: "¿Cuál fue la petición de Ester al rey para salvar a su pueblo? Ester 7:3-4", respuestas: [ { texto: "Perdón por los judíos", correcta: false }, { texto: "Que Amán fuera castigado", correcta: true }, { texto: "Liberación a los judíos", correcta: false }, { texto: "Regresar a Jerusalén", correcta: false }, ], },
 
   { pregunta: "¿Quién era el rey de Persia en el tiempo de Ester? Ester 1:1", respuestas: [ { texto: "Artajerjes", correcta: false }, { texto: "Ciro", correcta: false }, { texto: "Darío", correcta: false },{ texto: "Asuero", correcta: true } ], },
 
   {
-    pregunta: "¿Qué animal es mencionado como el animal que salió del arca de Noé cuando las aguas comenzaron a ceder?" , respuestas: [ { texto: "Mariposa", correcta: false }, { texto: "Cuervo", correcta: false }, { texto: "Gaviota", correcta: false }, { texto: "Paloma", correcta: true } ]
+    pregunta: "¿Qué animal es mencionado como el animal que salió del arca de Noé cuando las aguas comenzaron a ceder?" , respuestas: [ { texto: "Mariposa", correcta: false }, { texto: "Cuervo", correcta: true }, { texto: "Gaviota", correcta: false }, { texto: "Paloma", correcta: false } ]
   }, 
 
   {
     pregunta: '¿Qué seres vivos aparecen en el libro de Isaías como uno de los tres seres vivos que gritan "Santo, santo, santo es el Señor Dios Todopoderoso"?' , respuestas: [ { texto: "Querubines", correcta: false }, { texto: "Ángeles", correcta: false }, { texto: "Arcángeles", correcta: false }, { texto: "Serafines", correcta: true } ]
   },
   { pregunta: "¿Qué animal es conocido por su diligencia y trabajo duro?" , respuestas: [ { texto: "Abeja", correcta: true }, { texto: "Araña", correcta: false }, { texto: "Cucaracha", correcta: false }, { texto: "Escarabajo", correcta: false } ] },
-  { pregunta: "¿Qué animal es mencionado como el más sabio de los animales?" , respuestas: [ { texto: "Búho", correcta: false }, { texto: "Águila", correcta: false }, { texto: "Conejo", correcta: false }, { texto: "Serpiente", correcta: true } ] },
   { pregunta: "¿Qué animal es descrito en Proverbios como sinónimo de pereza?" , respuestas: [ { texto: "Cigarra", correcta: true }, { texto: "Saltamontes", correcta: false }, { texto: "Ciempiés", correcta: false }, { texto: "Mariposa", correcta: false } ] },
   { pregunta: "¿Qué insecto es elogiado por su organización y provisión en Proverbios?" , respuestas: [ { texto: "Termita", correcta: false }, { texto: "Avispa", correcta: false }, { texto: "Hormiga", correcta: true }, { texto: "Mosca", correcta: false } ] },
   { pregunta: "¿Qué animal es mencionado en Proverbios como el rey de los animales?" , respuestas: [ { texto: "León", correcta: true }, { texto: "Elefante", correcta: false }, { texto: "Tigre", correcta: false }, { texto: "Cebra", correcta: false } ] },
-  { pregunta: "¿Qué insecto es citado en Proverbios como un ejemplo de trabajo en equipo?" , respuestas: [ { texto: "Abeja", correcta: false }, { texto: "Hormiga", correcta: true }, { texto: "Libélula", correcta: false }, { texto: "Mantis religiosa", correcta: false } ] },
-  { pregunta: "¿Qué animal es mencionado en Proverbios como astuto y astuto?" , respuestas: [ { texto: "Zorro", correcta: false }, { texto: "Lobo", correcta: true }, { texto: "Gato", correcta: false }, { texto: "Perro", correcta: false } ] },
   { pregunta: "¿Qué insecto es elogiado en Proverbios por su sabiduría en la preparación para el futuro?" , respuestas: [ { texto: "Polilla", correcta: false }, { texto: "Mariposa", correcta: false }, { texto: "Avispa", correcta: true }, { texto: "Mariquita", correcta: false } ] },
   { pregunta: "¿Qué animal es conocido por su fuerza y ​​valor según Proverbios?" , respuestas: [ { texto: "Aguila", correcta: true }, { texto: "Halcón", correcta: false }, { texto: "Pavo real", correcta: false }, { texto: "Condor", correcta: false } ] },
 
-
-
-  { pregunta: "¿Qué insecto es mencionado en Proverbios como un ejemplo de diligencia y construcción de su hogar?" , respuestas: [ { texto: "Araña", correcta: false }, { texto: "Hormiga", correcta: false }, { texto: "Avispa", correcta: false }, { texto: "Abeja", correcta: true } ] },
   {
     pregunta: "¿Qué animal aparece en el libro de Éxodo como un castigo de Dios a Egipto y que finalmente llevó a su liberación?" , respuestas: [ { texto: "Mosquito", correcta: false }, { texto: "Sapo", correcta: true }, { texto: "Cocodrilo", correcta: false }, { texto: "Hormiga", correcta: false }  ]
   },
   { pregunta: "¿Qué animal es conocido por su diligencia y trabajo duro?" , respuestas: [ { texto: "Abeja", correcta: true }, { texto: "Araña", correcta: false }, { texto: "Cucaracha", correcta: false }, { texto: "Escarabajo", correcta: false } ] },
 
-{ pregunta: "¿Qué animal es mencionado como el más sabio de los animales?" , respuestas: [ { texto: "Búho", correcta: false }, { texto: "Águila", correcta: false }, { texto: "Conejo", correcta: false }, { texto: "Serpiente", correcta: true } ] },
+{ pregunta: "¿Qué animal es mencionado como el más astuto de los animales?" , respuestas: [ { texto: "Búho", correcta: false }, { texto: "Águila", correcta: false }, { texto: "Conejo", correcta: false }, { texto: "Serpiente", correcta: true } ] },
 
 { pregunta: "¿Qué animal es descrito en Proverbios como sinónimo de pereza?" , respuestas: [ { texto: "Cigarra", correcta: true }, { texto: "Saltamontes", correcta: false }, { texto: "Ciempiés", correcta: false }, { texto: "Mariposa", correcta: false } ] },
 
-{ pregunta: "¿Qué insecto es elogiado por su organización y provisión en Proverbios?" , respuestas: [ { texto: "Termita", correcta: false }, { texto: "Avispa", correcta: false }, { texto: "Hormiga", correcta: true }, { texto: "Mosca", correcta: false } ] },
 
 { pregunta: "¿Qué animal es mencionado en Proverbios como el rey de los animales?" , respuestas: [ { texto: "León", correcta: true }, { texto: "Elefante", correcta: false }, { texto: "Tigre", correcta: false }, { texto: "Cebra", correcta: false } ] },
 
-{ pregunta: "¿Qué insecto es citado en Proverbios como un ejemplo de trabajo en equipo?" , respuestas: [ { texto: "Abeja", correcta: false }, { texto: "Hormiga", correcta: true }, { texto: "Libélula", correcta: false }, { texto: "Mantis religiosa", correcta: false } ] },
-
-{ pregunta: "¿Qué animal es mencionado en Proverbios como astuto y astuto?" , respuestas: [ { texto: "Zorro", correcta: false }, { texto: "Lobo", correcta: true }, { texto: "Gato", correcta: false }, { texto: "Perro", correcta: false } ] },
 
 { pregunta: "¿Qué insecto es elogiado en Proverbios por su sabiduría en la preparación para el futuro?" , respuestas: [ { texto: "Polilla", correcta: false }, { texto: "Mariposa", correcta: false }, { texto: "Avispa", correcta: true }, { texto: "Mariquita", correcta: false } ] },
 
 { pregunta: "¿Qué animal es conocido por su fuerza y ​​valor según Proverbios?" , respuestas: [ { texto: "Aguila", correcta: true }, { texto: "Halcón", correcta: false }, { texto: "Pavo real", correcta: false }, { texto: "Condor", correcta: false } ] },
-
-{ pregunta: "¿Qué insecto es mencionado en Proverbios como un ejemplo de diligencia y construcción de su hogar?" , respuestas: [ { texto: "Araña", correcta: false }, { texto: "Hormiga", correcta: false }, { texto: "Avispa", correcta: false }, { texto: "Abeja", correcta: true } ] },
  
 { pregunta: "¿En qué ciudad se encontraba la Casa de Cornelio, a quien Pedro visitó según Hechos 10?" , respuestas: [ { texto: "Jope", correcta: true }, { texto: "Capernaum", correcta: false }, { texto: "Corinto", correcta: false }, { texto: "Jerusalem", correcta: false } ] },
 { pregunta: "¿En qué ciudad se encontraba el Areópago donde Pablo predicó su famoso discurso registrado en Hechos 17?" , respuestas: [ { texto: "Atenas", correcta: true }, { texto: "Roma", correcta: false }, { texto: "Jerusalén", correcta: false }, { texto: "Corinto", correcta: false } ] },
@@ -347,7 +325,7 @@ var preguntas = [
 { pregunta: "¿En qué ciudad se encontraba la iglesia a la que Pablo escribió la carta a Filemón?" , respuestas: [ { texto: "Colosas", correcta: false }, { texto: "Éfeso", correcta: false }, { texto: "Filipos", correcta: false }, { texto: "Roma", correcta: true } ] }, 
 
 
-{ pregunta: "¿En qué ciudad se encontraba la iglesia a la que Pablo escribió la primera y segunda carta a Timoteo?" , respuestas: [ { texto: "Éfeso", correcta: false }, { texto: "Roma", correcta: false }, { texto: "Atenas", correcta: false }, { texto: "Éfeso", correcta: true } ] },
+{ pregunta: "¿En qué ciudad se encontraba la iglesia a la que Pablo escribió la primera y segunda carta a Timoteo?" , respuestas: [ { texto: "Antioquía", correcta: false }, { texto: "Roma", correcta: false }, { texto: "Atenas", correcta: false }, { texto: "Éfeso", correcta: true } ] },
 
 
 
