@@ -25,6 +25,7 @@ var preguntas = [
       { texto: "Pablo", correcta: false },
       { texto: "Andrés", correcta: false },
       { texto: "Pedro", correcta: true },
+      { texto: "Juan", correcta: false },
     ],
   },
   {
@@ -88,6 +89,7 @@ var preguntas = [
       { texto: "Pedro", correcta: true },
       { texto: "Pablo", correcta: false },
       { texto: "Juan", correcta: false },
+      { texto: "Santiago", correcta: false },
     ],
   },
   {
@@ -103,9 +105,11 @@ var preguntas = [
   {
     pregunta: "¿Qué hizo Pedro al encontrarse con el inválido en la puerta del templo? (Hechos 3:1-10)",
     respuestas: [
-      { texto: "Lo sanó", correcta: true },
       { texto: "Le predicó", correcta: false },
       { texto: "Lo resucitó", correcta: false },
+      { texto: "Lo bendijo", correcta: false },
+      { texto: "Lo sanó", correcta: true },
+      
     ],
   },
   {
@@ -292,8 +296,6 @@ var preguntas = [
   {
     pregunta: '¿Qué seres vivos aparecen en el libro de Isaías como uno de los tres seres vivos que gritan "Santo, santo, santo es el Señor Dios Todopoderoso"?' , respuestas: [ { texto: "Querubines", correcta: false }, { texto: "Ángeles", correcta: false }, { texto: "Arcángeles", correcta: false }, { texto: "Serafines", correcta: true } ]
   },
-  { pregunta: "¿Qué animal es conocido por su diligencia y trabajo duro?" , respuestas: [ { texto: "Abeja", correcta: true }, { texto: "Araña", correcta: false }, { texto: "Cucaracha", correcta: false }, { texto: "Escarabajo", correcta: false } ] },
-  { pregunta: "¿Qué animal es descrito en Proverbios como sinónimo de pereza?" , respuestas: [ { texto: "Cigarra", correcta: true }, { texto: "Saltamontes", correcta: false }, { texto: "Ciempiés", correcta: false }, { texto: "Mariposa", correcta: false } ] },
   { pregunta: "¿Qué insecto es elogiado por su organización y provisión en Proverbios?" , respuestas: [ { texto: "Termita", correcta: false }, { texto: "Avispa", correcta: false }, { texto: "Hormiga", correcta: true }, { texto: "Mosca", correcta: false } ] },
   { pregunta: "¿Qué animal es mencionado en Proverbios como el rey de los animales?" , respuestas: [ { texto: "León", correcta: true }, { texto: "Elefante", correcta: false }, { texto: "Tigre", correcta: false }, { texto: "Cebra", correcta: false } ] },
   { pregunta: "¿Qué animal es conocido por su fuerza y ​​valor según Proverbios?" , respuestas: [ { texto: "Águila", correcta: true }, { texto: "Halcón", correcta: false }, { texto: "Pavo real", correcta: false }, { texto: "Condor", correcta: false } ] },
@@ -304,21 +306,15 @@ var preguntas = [
   { pregunta: "¿Qué animal es conocido por su diligencia y trabajo duro?" , respuestas: [ { texto: "Abeja", correcta: true }, { texto: "Araña", correcta: false }, { texto: "Cucaracha", correcta: false }, { texto: "Escarabajo", correcta: false } ] },
 
 { pregunta: "¿Qué animal es mencionado como el más astuto de los animales?" , respuestas: [ { texto: "Búho", correcta: false }, { texto: "Águila", correcta: false }, { texto: "Conejo", correcta: false }, { texto: "Serpiente", correcta: true } ] },
-
-{ pregunta: "¿Qué animal es descrito en Proverbios como sinónimo de pereza?" , respuestas: [ { texto: "Cigarra", correcta: true }, { texto: "Saltamontes", correcta: false }, { texto: "Ciempiés", correcta: false }, { texto: "Mariposa", correcta: false } ] },
-
-
-
-{ pregunta: "¿Qué insecto es elogiado en Proverbios por su sabiduría en la preparación para el futuro?" , respuestas: [ { texto: "Polilla", correcta: false }, { texto: "Mariposa", correcta: false }, { texto: "Avispa", correcta: true }, { texto: "Mariquita", correcta: false } ] },
  
-{ pregunta: "¿En qué ciudad se encontraba la Casa de Cornelio, a quien Pedro visitó según Hechos 10?" , respuestas: [ { texto: "Jope", correcta: true }, { texto: "Capernaum", correcta: false }, { texto: "Corinto", correcta: false }, { texto: "Jerusalem", correcta: false } ] },
+{ pregunta: "¿En qué ciudad se encontraba la casa de Cornelio, a quien Pedro visitó, según Hechos 10?" , respuestas: [ { texto: "Jope", correcta: true }, { texto: "Capernaum", correcta: false }, { texto: "Corinto", correcta: false }, { texto: "Jerusalem", correcta: false } ] },
 { pregunta: "¿En qué ciudad se encontraba el Areópago donde Pablo predicó su famoso discurso registrado en Hechos 17?" , respuestas: [ { texto: "Atenas", correcta: true }, { texto: "Roma", correcta: false }, { texto: "Jerusalén", correcta: false }, { texto: "Corinto", correcta: false } ] },
 
 
 { pregunta: "¿En qué ciudad se encontraba la iglesia a la que Pablo escribió la carta a Filemón?" , respuestas: [ { texto: "Colosas", correcta: false }, { texto: "Éfeso", correcta: false }, { texto: "Filipos", correcta: false }, { texto: "Roma", correcta: true } ] }, 
 
 
-{ pregunta: "¿En qué ciudad se encontraba la iglesia a la que Pablo escribió la primera y segunda carta a Timoteo?" , respuestas: [ { texto: "Antioquía", correcta: false }, { texto: "Roma", correcta: false }, { texto: "Atenas", correcta: false }, { texto: "Éfeso", correcta: true } ] },
+{ pregunta: "¿En qué ciudad se encontraba la iglesia a la que Pablo escribió las cartas a Timoteo?" , respuestas: [ { texto: "Antioquía", correcta: false }, { texto: "Roma", correcta: false }, { texto: "Atenas", correcta: false }, { texto: "Éfeso", correcta: true } ] },
 
 
 
