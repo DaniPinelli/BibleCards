@@ -2,15 +2,6 @@
 var preguntas = [
 
   {
-    pregunta: "¿Quién fue el primer mártir cristiano mencionado en el libro de Hechos? (Hechos 6:8-7:60)",
-    respuestas: [
-      { texto: "Pedro", correcta: false },
-      { texto: "Esteban", correcta: true },
-      { texto: "Pablo", correcta: false },
-      { texto: "Santiago", correcta: false },
-    ],
-  },
-  {
     pregunta: "¿A qué ciudad fue perseguida la iglesia después de la muerte de Esteban? (Hechos 8:1-4)",
     respuestas: [
       { texto: "Roma", correcta: false },
@@ -96,9 +87,9 @@ var preguntas = [
     pregunta: "¿Cuántas personas se convirtieron al escuchar el mensaje de Pedro? (Hechos 2:41)",
     respuestas: [
       { texto: "30 personas", correcta: false },
-      { texto: "50 personas", correcta: false },
       { texto: "300 personas", correcta: false },
       { texto: "3000 personas", correcta: true },
+      { texto: "30.000 personas", correcta: false },
     ],
   },
  
@@ -107,7 +98,7 @@ var preguntas = [
     respuestas: [
       { texto: "Le predicó", correcta: false },
       { texto: "Lo resucitó", correcta: false },
-      { texto: "Lo bendijo", correcta: false },
+      { texto: "Lo criticó", correcta: false },
       { texto: "Lo sanó", correcta: true },
       
     ],
@@ -143,7 +134,7 @@ var preguntas = [
     pregunta: "¿Quién fue el primer mártir cristiano? (Hechos 6:8-7:60)",
     respuestas: [
       { texto: "Pedro", correcta: false },
-      { texto: "Saulo", correcta: true },
+      { texto: "Saulo", correcta: false },
       { texto: "Esteban", correcta: true },
       { texto: "Santiago", correcta: false },
     ],
@@ -179,9 +170,7 @@ var preguntas = [
     ],
   },
 
-
-
-  {
+{
     pregunta: "¿A qué discípulo llamó Jesús primero? (Marcos 1:16-20)",
     respuestas: [
       { texto: "Andrés", correcta: false },
@@ -236,10 +225,10 @@ var preguntas = [
   ],
 },
 
-  {  pregunta: "¿En qué lugar se encuentran Rut y su suegra al inicio del libro de Rut? Rut 1:1",  respuestas:[ {texto: "Israel", correcta: false}, {texto: "Egipto", correcta: false}, {texto: "Jericó", correcta: false}, {texto: "Moab", correcta: true},],},
+  {  pregunta: "¿En qué lugar se encontraban Rut y su suegra al inicio del libro? Rut 1:1",  respuestas:[ {texto: "Israel", correcta: false}, {texto: "Egipto", correcta: false}, {texto: "Jericó", correcta: false}, {texto: "Moab", correcta: true},],},
  
 
-  { pregunta: "¿Quiénes fueron los primeros en visitar a Jesús después de su nacimiento? Lucas 2:8-20", respuestas:[{texto:"Pastores",correcta:true},{texto:"Reyes Magos",correcta:false},{texto:"Sacerdotes",correcta:false},{texto:"Discípulos de Juan el Bautista",correcta:false},],},
+  { pregunta: "¿Quiénes fueron los primeros en visitar a Jesús? Lucas 2:8-20", respuestas:[{texto:"Pastores",correcta:true},{texto:"Reyes Magos",correcta:false},{texto:"Sacerdotes",correcta:false},{texto:"Discípulos de Juan el Bautista",correcta:false},],},
 
   { pregunta:"¿Cuál fue la primera tentación de Jesús en el desierto? Lucas 4:1-13", respuestas:[{texto:"Saltar del templo",correcta:false},{texto:"Adorar a Satanás",correcta:false}, {texto:"Convertir piedras en pan",correcta:true},{texto:"Negar a Dios",correcta:false},],},
 
@@ -259,8 +248,6 @@ var preguntas = [
   { pregunta: "¿Qué es una fuente de vida? Proverbios 4:23", respuestas: [ { texto: "El cerebro", correcta: false }, { texto: "Los pulmones", correcta: false }, { texto: "El corazón", correcta: true }, { texto: "Los riñones", correcta: false }, ], },
 
   { pregunta: "¿Qué es el comienzo de la sabiduría? Proverbios 1:7", respuestas: [ { texto: "El temor del Señor", correcta: true }, { texto: "La educación formal", correcta: false }, { texto: "La experiencia personal", correcta: false }, { texto: "La inteligencia innata", correcta: false }, ], },
-
-  { pregunta: "¿Qué es el consejo? Proverbios 12:15", respuestas: [ { texto: "Una opinión personal", correcta: false }, { texto: "La sabiduría en acción", correcta: true }, { texto: "Un consejo financiero", correcta: false }, { texto: "Un consejo médico", correcta: false }, ], },
   
   { pregunta: "¿Qué es mejor que un hombre fuerte? Proverbios 16.32", respuestas:[{texto:"El que tiene mucho dinero.",correcta:false}, {texto:"El que domina su espíritu",correcta:true},{texto:"El que tiene muchos amigos",correcta:false},{texto:"El que tiene mucho poder",correcta:false},],},
   
@@ -294,16 +281,16 @@ var preguntas = [
   }, 
 
   {
-    pregunta: '¿Qué seres vivos aparecen en el libro de Isaías como uno de los tres seres vivos que gritan "Santo, santo, santo es el Señor Dios Todopoderoso"?' , respuestas: [ { texto: "Querubines", correcta: false }, { texto: "Ángeles", correcta: false }, { texto: "Arcángeles", correcta: false }, { texto: "Serafines", correcta: true } ]
+    pregunta: '¿Qué seres vivos aparecen en el libro de Isaías gritan "Santo, santo, santo es el Señor Dios Todopoderoso"?' , respuestas: [ { texto: "Querubines", correcta: false }, { texto: "Ángeles", correcta: false }, { texto: "Arcángeles", correcta: false }, { texto: "Serafines", correcta: true } ]
   },
   { pregunta: "¿Qué insecto es elogiado por su organización y provisión en Proverbios?" , respuestas: [ { texto: "Termita", correcta: false }, { texto: "Avispa", correcta: false }, { texto: "Hormiga", correcta: true }, { texto: "Mosca", correcta: false } ] },
-  { pregunta: "¿Qué animal es mencionado en Proverbios como el rey de los animales?" , respuestas: [ { texto: "León", correcta: true }, { texto: "Elefante", correcta: false }, { texto: "Tigre", correcta: false }, { texto: "Cebra", correcta: false } ] },
+ 
   { pregunta: "¿Qué animal es conocido por su fuerza y ​​valor según Proverbios?" , respuestas: [ { texto: "Águila", correcta: true }, { texto: "Halcón", correcta: false }, { texto: "Pavo real", correcta: false }, { texto: "Condor", correcta: false } ] },
 
   {
     pregunta: "¿Qué animal aparece en el libro de Éxodo como un castigo de Dios a Egipto y que finalmente llevó a su liberación?" , respuestas: [ { texto: "Mosquito", correcta: false }, { texto: "Sapo", correcta: true }, { texto: "Cocodrilo", correcta: false }, { texto: "Hormiga", correcta: false }  ]
   },
-  { pregunta: "¿Qué animal es conocido por su diligencia y trabajo duro?" , respuestas: [ { texto: "Abeja", correcta: true }, { texto: "Araña", correcta: false }, { texto: "Cucaracha", correcta: false }, { texto: "Escarabajo", correcta: false } ] },
+ 
 
 { pregunta: "¿Qué animal es mencionado como el más astuto de los animales?" , respuestas: [ { texto: "Búho", correcta: false }, { texto: "Águila", correcta: false }, { texto: "Conejo", correcta: false }, { texto: "Serpiente", correcta: true } ] },
  
