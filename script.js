@@ -173,8 +173,8 @@ var preguntas = [
 {
     pregunta: "¿A qué discípulo llamó Jesús primero? (Marcos 1:16-20)",
     respuestas: [
-      { texto: "Andrés", correcta: false },
-      { texto: "Pedro", correcta: true },
+      { texto: "Andrés", correcta: true },
+      { texto: "Pedro", correcta: false },
       { texto: "Santiago", correcta: false },
       { texto: "Juan", correcta: false },
     ],
